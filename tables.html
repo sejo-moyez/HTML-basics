@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            /*box-shadow: 1px 2px 5px blueviolet;*/
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #00b894;
+            color: white;
+            font-weight: bold;
+            /*border-top-left-radius: 15px;*/
+        }
+
+        tr:nth-child(odd) {
+            background-color: aliceblue;
+        }
+
+        tr:nth-child(3) {
+            color: #00b894;
+            font-weight: bold;
+        }
+        tr:last-child {
+            border-bottom: 2px solid #00b894;
+        }
+        .top {
+        border-top-left-radius: 10px;
+        }
+        #top-right-corner {
+            border-top-right-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+            <tr>
+                <th class="top">Rank</th>
+                <th>Name</th>
+                <th>Points</th>
+                <th id="top-right-corner">Team</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Domenic</td>
+                <td>88,110</td>
+                <td>dcode</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sally</td>
+                <td>72,400</td>
+                <td>Students</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nick</td>
+                <td>52,300</td>
+                <td>dcode</td>
+            </tr>
+    </table>
+
+</body>
+</html>
