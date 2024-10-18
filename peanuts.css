@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: azure;
+    text-align: left;
+    margin: 10px
+}
+.heading{
+    text-underline-color: blue;
+}
+.ann{
+    background-color: deeppink;
+    text: white;
+}
